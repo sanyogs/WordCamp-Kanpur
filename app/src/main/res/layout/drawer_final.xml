@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_actionbar"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="50dp">
+
+            <android.support.v7.widget.Toolbar
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:id="@+id/toolbar"
+                android:layout_toLeftOf="@+id/imageView_actionbar_left_reload"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:title="@string/app_name">
+
+            </android.support.v7.widget.Toolbar>
+
+            <ImageView
+                android:id="@+id/imageView_actionbar_left_reload"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_alignParentRight="true"
+                android:visibility="visible"
+                android:src="@drawable/ic_reload"
+                android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/drawerLayout"
+        android:background="@color/white"
+        app:headerLayout="@layout/drawer_header">
+
+                <FrameLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/containerView">
+                </FrameLayout>
+
+             <android.support.design.widget.NavigationView
+                android:id="@+id/mNavigationView"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                app:itemTextColor="@color/textcolor"
+                app:menu="@menu/drawermenu"
+                android:layout_marginTop="0dp"
+                android:background="@color/white"
+                app:itemIconTint="@color/textcolor" >
+
+             <include layout="@layout/drawer_footer"
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:layout_gravity="bottom"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginBottom="5dp"/>
+
+         </android.support.design.widget.NavigationView>
+
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

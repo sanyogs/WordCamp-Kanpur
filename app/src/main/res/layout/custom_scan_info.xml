@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@color/schedulelist_bg">
+
+    <TextView
+        android:id="@+id/tv_scan_contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="name"
+        android:layout_margin="2dp"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/testsize_max"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_scan_contact_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phone"
+        android:layout_margin="2dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/testsize_mid"/>
+
+    <TextView
+        android:id="@+id/tv_scan_contact_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phone"
+        android:textColor="@color/textcolor"
+        android:layout_margin="2dp"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/testsize_mid" />
+
+    <TextView
+        android:id="@+id/tv_scan_contact_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phone"
+        android:textColor="@color/textcolor"
+        android:gravity="center_vertical"
+        android:layout_margin="2dp"
+        android:textSize="@dimen/testsize_mid"/>
+
+</LinearLayout>

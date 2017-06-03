@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "311298033694",
+    "firebase_url": "https://wpkanpur-211b5.firebaseio.com",
+    "project_id": "wpkanpur-211b5",
+    "storage_bucket": "wpkanpur-211b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311298033694:android:b4ac48c23fa50f7e",
+        "android_client_info": {
+          "package_name": "com.version.next.wpkanpur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311298033694-m2mrrmvdnciq83oiemnv6aa5fh165u7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBifjVllty2Mtqh1qtNbQ66ujjyLPkTznk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

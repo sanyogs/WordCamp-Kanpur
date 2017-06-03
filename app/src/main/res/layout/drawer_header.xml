@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_drawer_header"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+<RelativeLayout
+    android:id="@+id/drawer_header"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/iv_worldcamp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/logo_white"/>
+
+    <TextView
+        android:id="@+id/tv_worldcamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_worldcamp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/testsize_mid"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_worldcamp_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_worldcamp"
+        android:text="@string/title_header_date"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/testsize_mid"/>
+</RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_scan_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:background="@color/blue"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/drawer_header"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/scan_contact"
+            android:padding="3dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/scan_contact"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/testsize_mid"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

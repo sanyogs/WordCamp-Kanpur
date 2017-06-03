@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="@string/spekers"
+          android:id="@+id/nav_item_speakers"
+          android:icon="@drawable/speakers_grey"/>
+
+    <item android:title="@string/schedule"
+        android:id="@+id/nav_item_schedule"
+        android:icon="@drawable/schedule_grey"/>
+
+
+    <item android:title="@string/sponsers"
+          android:id="@+id/nav_item_sponsers"
+          android:icon="@drawable/sponsers_grey"/>
+
+    <item android:title="@string/venue"
+        android:id="@+id/nav_item_venue"
+        android:icon="@drawable/venue"/>
+
+    <item android:title="@string/scan_info"
+        android:id="@+id/nav_item_scan_info"
+        android:icon="@drawable/scan_contact_drawer"/>
+
+    <item android:title="@string/notification"
+        android:id="@+id/nav_item_notification_detail"
+        android:icon="@drawable/notification"/>
+
+    <item android:title=""
+        android:id="@+id/nav_item_notification_detail_1"/>
+
+</menu>

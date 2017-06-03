@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d54e21</color>
+    <color name="colorPrimaryDark">#d54e21</color>
+    <color name="colordrawerDark">#21759b</color>
+    <color name="colorAccent">#21759b</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#21759b</color>
+    <color name="view_color">#A3A3A3</color>
+    <color name="textcolor">#000000</color>
+    <color name="black">#000000</color>
+    <color name="textcolor_light">#020202</color>
+    <color name="transperent">#00ffffff</color>
+
+    <color name="schedulelist_bg">#F0EFEF</color>
+    <color name="schedulelist_textbg">#464646</color>
+
+</resources>

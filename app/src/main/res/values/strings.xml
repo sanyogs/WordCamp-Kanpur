@@ -1,0 +1,59 @@
+<resources>
+
+    <!--//Strring change-->
+
+    <string name="app_name">WordCamp Kanpur</string>
+    <string name="url">https://2017.kanpur.wordcamp.org/</string>
+
+    <!--<string name="url">https://2017.asheville.wordcamp.org/</string>-->
+
+    <string name="title_header_date"> 9th July, 2017</string>
+    <string name="timer_date">9</string>
+    <string name="timer_month">6</string> <!-- 0-11 so 1 less for january->0 and for december->11-->
+    <string name="timer_year">2017</string>
+    <string name="no_of_days">1</string>
+
+    <string name="nearest_landmark">Nearest Landmark : J.K. Temple</string>
+    <string name="map">WordCamp Kanpur @ India</string>
+    <string name="venue_detail">120/500, 19, Govind Nagar Rd, Lajpat Nagar, Narainpurwa, Kanpur, Uttar Pradesh 208005</string>
+    <string name="map_vanue">120/500, 19, Govind Nagar Rd, Lajpat Nagar, Narainpurwa, Kanpur, Uttar Pradesh 208005</string>
+    <string name="map_vanue_markertext">Rangoli Guest House</string>
+
+    <string name="latitude">26.4709266d</string>
+    <string name="longitude">80.3035566d</string>
+    <!--//Strring change-->
+
+    <!--home_screen-->
+    <string name="google_maps_key">AIzaSyAxXRFjBA3s2L-07wNUvoTCdX8ef5Q8aK4</string>
+    <string name="scan_contact">Scan Contact</string>
+    <string name="spekers">Speakers</string>
+    <string name="schedule">Schedule</string>
+    <string name="sponsers">Sponsors</string>
+    <string name="venue">Venue</string>
+    <string name="scan_info">Scan Information</string>
+    <string name="notification">Notification</string>
+    <string name="buy_ticket">Buy Ticket</string>
+
+    <!--spekers-->
+    <string name="list_speker">List of Speakers for </string>
+
+    <!--sponsers-->
+    <string name="our_sponsers">Our Sponsers</string>
+    <string name="thanks_sponsers">We\'d like to thanks each and every one of our Sponsers,Who enable us in making this WordCamp Possible.</string>
+
+    <!--venue-->
+    <string name="open_map"><u>Open in Google map</u></string>
+    <string name="twitter_url">https://en.gravatar.com/</string>
+    <string name="open_buyticket">tickets/</string>
+
+    <!--<string name="url">https://2016.us.wordcamp.org/wp-json/</string>-->
+    <!--<string name="url">https://2017.mumbai.wordcamp.org/wp-json/</string>-->
+    <!--<string name="url_sponser">https://2017.mumbai.wordcamp.org/wp-json/</string>-->
+    <!--<string name="google_maps_key">AIzaSyCzD9vCW6OzKSRXwLkqDSKy-UCmcSIbLWg</string>-->
+
+    <string name="no_speaker_data">Speaker yet to be announced</string>
+    <string name="no_sponsor_data">sponsor yet to be announced</string>
+    <string name="no_spcedule_data">Schedule to be announced</string>
+
+
+</resources>

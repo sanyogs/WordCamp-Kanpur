@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+
+    <RelativeLayout
+        android:id="@+id/layout_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imageView_notification"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/logo_splash"
+                android:padding="3dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_notification_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="this is noti text title"
+                android:layout_toRightOf="@+id/imageView_notification"/>
+
+            <TextView
+                android:id="@+id/tv_notification_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="2dp"
+                android:text="this is noti text body"
+                android:layout_toRightOf="@+id/imageView_notification"
+                android:layout_below="@+id/tv_notification_title"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

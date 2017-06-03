@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/header_layout"
+        android:layout_height="120dp"
+        android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/ll_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/notification"
+            android:padding="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/notification"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/testsize_mid"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_notification"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:divider="@color/transperent"
+        android:dividerHeight="10dp"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>
